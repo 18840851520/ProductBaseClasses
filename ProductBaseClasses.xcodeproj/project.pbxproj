@@ -8,29 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		2485E6D01F1CB8DA00301EBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485E6CF1F1CB8DA00301EBB /* main.m */; };
-		2485E6D31F1CB8DA00301EBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485E6D21F1CB8DA00301EBB /* AppDelegate.m */; };
-		2485E6D61F1CB8DA00301EBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485E6D51F1CB8DA00301EBB /* ViewController.m */; };
-		2485E6D91F1CB8DA00301EBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2485E6D71F1CB8DA00301EBB /* Main.storyboard */; };
 		2485E6DC1F1CB8DA00301EBB /* ProductBaseClasses.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2485E6DA1F1CB8DA00301EBB /* ProductBaseClasses.xcdatamodeld */; };
 		2485E6DE1F1CB8DA00301EBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2485E6DD1F1CB8DA00301EBB /* Assets.xcassets */; };
 		2485E6E11F1CB8DA00301EBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2485E6DF1F1CB8DA00301EBB /* LaunchScreen.storyboard */; };
-		2485E6EB1F1CBC7900301EBB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485E6EA1F1CBC7900301EBB /* BaseViewController.m */; };
+		2485E7011F1CC20D00301EBB /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2485E6ED1F1CC20D00301EBB /* AlipaySDK.bundle */; };
+		2485E7021F1CC20D00301EBB /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2485E6EE1F1CC20D00301EBB /* AlipaySDK.framework */; };
+		2485E7031F1CC20D00301EBB /* AFNService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485E6F41F1CC20D00301EBB /* AFNService.m */; };
+		2485E7051F1CC20D00301EBB /* HttpRequestSign.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485E6F81F1CC20D00301EBB /* HttpRequestSign.m */; };
+		2485E7061F1CC20D00301EBB /* SuccessModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485E6FC1F1CC20D00301EBB /* SuccessModel.m */; };
+		2485E7071F1CC20D00301EBB /* jpush-ios-2.1.8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2485E6FE1F1CC20D00301EBB /* jpush-ios-2.1.8.a */; };
+		2485E7081F1CC20D00301EBB /* sound.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2485E7001F1CC20D00301EBB /* sound.caf */; };
+		2485E7421F1CC2AD00301EBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2485E7411F1CC2AD00301EBB /* UIKit.framework */; };
+		24DAE5A4E5AEC1284FC7D0B1 /* libPods-ProductBaseClasses.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1BE7D629680C48DEC064497 /* libPods-ProductBaseClasses.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2485E6CB1F1CB8DA00301EBB /* ProductBaseClasses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductBaseClasses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2485E6CF1F1CB8DA00301EBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2485E6D11F1CB8DA00301EBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2485E6D21F1CB8DA00301EBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2485E6D41F1CB8DA00301EBB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2485E6D51F1CB8DA00301EBB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2485E6D81F1CB8DA00301EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2485E6DB1F1CB8DA00301EBB /* ProductBaseClasses.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProductBaseClasses.xcdatamodel; sourceTree = "<group>"; };
 		2485E6DD1F1CB8DA00301EBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2485E6E01F1CB8DA00301EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2485E6E21F1CB8DA00301EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2485E6E91F1CBC7900301EBB /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		2485E6EA1F1CBC7900301EBB /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		2485E6ED1F1CC20D00301EBB /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		2485E6EE1F1CC20D00301EBB /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		2485E6F31F1CC20D00301EBB /* AFNService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNService.h; sourceTree = "<group>"; };
+		2485E6F41F1CC20D00301EBB /* AFNService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNService.m; sourceTree = "<group>"; };
+		2485E6F71F1CC20D00301EBB /* HttpRequestSign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequestSign.h; sourceTree = "<group>"; };
+		2485E6F81F1CC20D00301EBB /* HttpRequestSign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequestSign.m; sourceTree = "<group>"; };
+		2485E6FB1F1CC20D00301EBB /* SuccessModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessModel.h; sourceTree = "<group>"; };
+		2485E6FC1F1CC20D00301EBB /* SuccessModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessModel.m; sourceTree = "<group>"; };
+		2485E6FE1F1CC20D00301EBB /* jpush-ios-2.1.8.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-2.1.8.a"; sourceTree = "<group>"; };
+		2485E6FF1F1CC20D00301EBB /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		2485E7001F1CC20D00301EBB /* sound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound.caf; sourceTree = "<group>"; };
+		2485E7411F1CC2AD00301EBB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		42F18FA5CF8E1DF415EF0A19 /* Pods-ProductBaseClasses.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProductBaseClasses.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProductBaseClasses/Pods-ProductBaseClasses.release.xcconfig"; sourceTree = "<group>"; };
+		85FF2B1AA1608D041CE452DF /* Pods-ProductBaseClasses.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProductBaseClasses.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProductBaseClasses/Pods-ProductBaseClasses.debug.xcconfig"; sourceTree = "<group>"; };
+		B1BE7D629680C48DEC064497 /* libPods-ProductBaseClasses.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProductBaseClasses.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +51,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2485E7421F1CC2AD00301EBB /* UIKit.framework in Frameworks */,
+				2485E7071F1CC20D00301EBB /* jpush-ios-2.1.8.a in Frameworks */,
+				2485E7021F1CC20D00301EBB /* AlipaySDK.framework in Frameworks */,
+				24DAE5A4E5AEC1284FC7D0B1 /* libPods-ProductBaseClasses.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +66,8 @@
 			children = (
 				2485E6CD1F1CB8DA00301EBB /* ProductBaseClasses */,
 				2485E6CC1F1CB8DA00301EBB /* Products */,
+				2485E7401F1CC2AD00301EBB /* Frameworks */,
+				77AC78121DE54B7FC5C2C664 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,11 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				2485E6E81F1CBC2800301EBB /* Classes */,
-				2485E6D11F1CB8DA00301EBB /* AppDelegate.h */,
-				2485E6D21F1CB8DA00301EBB /* AppDelegate.m */,
-				2485E6D41F1CB8DA00301EBB /* ViewController.h */,
-				2485E6D51F1CB8DA00301EBB /* ViewController.m */,
-				2485E6D71F1CB8DA00301EBB /* Main.storyboard */,
 				2485E6DD1F1CB8DA00301EBB /* Assets.xcassets */,
 				2485E6DF1F1CB8DA00301EBB /* LaunchScreen.storyboard */,
 				2485E6E21F1CB8DA00301EBB /* Info.plist */,
@@ -89,10 +103,101 @@
 		2485E6E81F1CBC2800301EBB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2485E6E91F1CBC7900301EBB /* BaseViewController.h */,
-				2485E6EA1F1CBC7900301EBB /* BaseViewController.m */,
+				2485E6EC1F1CC20D00301EBB /* AlipaySdkLib */,
+				2485E6F11F1CC20D00301EBB /* HttpService */,
+				2485E6FD1F1CC20D00301EBB /* JPUSH */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		2485E6EC1F1CC20D00301EBB /* AlipaySdkLib */ = {
+			isa = PBXGroup;
+			children = (
+				2485E6ED1F1CC20D00301EBB /* AlipaySDK.bundle */,
+				2485E6EE1F1CC20D00301EBB /* AlipaySDK.framework */,
+				2485E6EF1F1CC20D00301EBB /* openssl */,
+				2485E6F01F1CC20D00301EBB /* Util */,
+			);
+			path = AlipaySdkLib;
+			sourceTree = "<group>";
+		};
+		2485E6EF1F1CC20D00301EBB /* openssl */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = openssl;
+			sourceTree = "<group>";
+		};
+		2485E6F01F1CC20D00301EBB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		2485E6F11F1CC20D00301EBB /* HttpService */ = {
+			isa = PBXGroup;
+			children = (
+				2485E6F21F1CC20D00301EBB /* AFNService */,
+				2485E6F71F1CC20D00301EBB /* HttpRequestSign.h */,
+				2485E6F81F1CC20D00301EBB /* HttpRequestSign.m */,
+				2485E6F91F1CC20D00301EBB /* MKNService */,
+				2485E6FA1F1CC20D00301EBB /* Model */,
+			);
+			path = HttpService;
+			sourceTree = "<group>";
+		};
+		2485E6F21F1CC20D00301EBB /* AFNService */ = {
+			isa = PBXGroup;
+			children = (
+				2485E6F31F1CC20D00301EBB /* AFNService.h */,
+				2485E6F41F1CC20D00301EBB /* AFNService.m */,
+			);
+			path = AFNService;
+			sourceTree = "<group>";
+		};
+		2485E6F91F1CC20D00301EBB /* MKNService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MKNService;
+			sourceTree = "<group>";
+		};
+		2485E6FA1F1CC20D00301EBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2485E6FB1F1CC20D00301EBB /* SuccessModel.h */,
+				2485E6FC1F1CC20D00301EBB /* SuccessModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2485E6FD1F1CC20D00301EBB /* JPUSH */ = {
+			isa = PBXGroup;
+			children = (
+				2485E6FE1F1CC20D00301EBB /* jpush-ios-2.1.8.a */,
+				2485E6FF1F1CC20D00301EBB /* JPUSHService.h */,
+				2485E7001F1CC20D00301EBB /* sound.caf */,
+			);
+			path = JPUSH;
+			sourceTree = "<group>";
+		};
+		2485E7401F1CC2AD00301EBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2485E7411F1CC2AD00301EBB /* UIKit.framework */,
+				B1BE7D629680C48DEC064497 /* libPods-ProductBaseClasses.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77AC78121DE54B7FC5C2C664 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85FF2B1AA1608D041CE452DF /* Pods-ProductBaseClasses.debug.xcconfig */,
+				42F18FA5CF8E1DF415EF0A19 /* Pods-ProductBaseClasses.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2485E6E51F1CB8DA00301EBB /* Build configuration list for PBXNativeTarget "ProductBaseClasses" */;
 			buildPhases = (
+				DC6E393CE141BF8F34A47A80 /* [CP] Check Pods Manifest.lock */,
 				2485E6C71F1CB8DA00301EBB /* Sources */,
 				2485E6C81F1CB8DA00301EBB /* Frameworks */,
 				2485E6C91F1CB8DA00301EBB /* Resources */,
+				6D631AAAD360DB15B19B961B /* [CP] Embed Pods Frameworks */,
+				6BD6FD15A108E1466C975934 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,36 +263,77 @@
 			files = (
 				2485E6E11F1CB8DA00301EBB /* LaunchScreen.storyboard in Resources */,
 				2485E6DE1F1CB8DA00301EBB /* Assets.xcassets in Resources */,
-				2485E6D91F1CB8DA00301EBB /* Main.storyboard in Resources */,
+				2485E7081F1CC20D00301EBB /* sound.caf in Resources */,
+				2485E7011F1CC20D00301EBB /* AlipaySDK.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BD6FD15A108E1466C975934 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProductBaseClasses/Pods-ProductBaseClasses-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D631AAAD360DB15B19B961B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProductBaseClasses/Pods-ProductBaseClasses-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC6E393CE141BF8F34A47A80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2485E6C71F1CB8DA00301EBB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2485E6D61F1CB8DA00301EBB /* ViewController.m in Sources */,
-				2485E6EB1F1CBC7900301EBB /* BaseViewController.m in Sources */,
+				2485E7031F1CC20D00301EBB /* AFNService.m in Sources */,
+				2485E7061F1CC20D00301EBB /* SuccessModel.m in Sources */,
 				2485E6DC1F1CB8DA00301EBB /* ProductBaseClasses.xcdatamodeld in Sources */,
-				2485E6D31F1CB8DA00301EBB /* AppDelegate.m in Sources */,
 				2485E6D01F1CB8DA00301EBB /* main.m in Sources */,
+				2485E7051F1CC20D00301EBB /* HttpRequestSign.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2485E6D71F1CB8DA00301EBB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2485E6D81F1CB8DA00301EBB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2485E6DF1F1CB8DA00301EBB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -237,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -279,7 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -288,10 +437,20 @@
 		};
 		2485E6E61F1CB8DA00301EBB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85FF2B1AA1608D041CE452DF /* Pods-ProductBaseClasses.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ProductBaseClasses/Classes/AlipaySdkLib",
+				);
 				INFOPLIST_FILE = ProductBaseClasses/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ProductBaseClasses/Classes/JPUSH",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hualuoyongheng.ProductBaseClasses;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -299,10 +458,20 @@
 		};
 		2485E6E71F1CB8DA00301EBB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42F18FA5CF8E1DF415EF0A19 /* Pods-ProductBaseClasses.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ProductBaseClasses/Classes/AlipaySdkLib",
+				);
 				INFOPLIST_FILE = ProductBaseClasses/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ProductBaseClasses/Classes/JPUSH",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hualuoyongheng.ProductBaseClasses;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
