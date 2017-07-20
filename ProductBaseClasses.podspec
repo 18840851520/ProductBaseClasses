@@ -15,7 +15,7 @@ s.platform     = :ios,'8.0'
 s.ios.deployment_target = "8.0"
 
 s.source       = { :git => "https://github.com/18840851520/ProductBaseClasses.git", :tag => "#{s.version}" }
-s.source_files = "ProductBaseClasses/ProductBaseClasses/Classes/*.{h,m}"
+s.source_files = "ProductBaseClasses/ProductBaseClasses/ ** /*.{h,m}"
 s.framework    = "UIKit"
 s.requires_arc = true
 
