@@ -10,7 +10,7 @@ s.author       = { "划落永恒" => "zjh0625@foxmail.com" }
 s.platform     = :ios,'8.0'
 
 s.source       = { :git => "https://github.com/18840851520/ProductBaseClasses.git", :tag => "#{s.version}" }
-s.source_files = "ProductBaseClasses/ProductBaseClasses/**"
+s.source_files = "ProductBaseClasses/**"
 s.framework    = "UIKit"
 s.requires_arc = true
 
