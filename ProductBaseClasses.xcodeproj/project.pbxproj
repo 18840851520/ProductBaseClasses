@@ -11,14 +11,14 @@
 		2485E6DC1F1CB8DA00301EBB /* ProductBaseClasses.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2485E6DA1F1CB8DA00301EBB /* ProductBaseClasses.xcdatamodeld */; };
 		2485E6DE1F1CB8DA00301EBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2485E6DD1F1CB8DA00301EBB /* Assets.xcassets */; };
 		2485E6E11F1CB8DA00301EBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2485E6DF1F1CB8DA00301EBB /* LaunchScreen.storyboard */; };
-		2485E7011F1CC20D00301EBB /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2485E6ED1F1CC20D00301EBB /* AlipaySDK.bundle */; };
-		2485E7021F1CC20D00301EBB /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2485E6EE1F1CC20D00301EBB /* AlipaySDK.framework */; };
-		2485E7031F1CC20D00301EBB /* AFNService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485E6F41F1CC20D00301EBB /* AFNService.m */; };
-		2485E7051F1CC20D00301EBB /* HttpRequestSign.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485E6F81F1CC20D00301EBB /* HttpRequestSign.m */; };
-		2485E7061F1CC20D00301EBB /* SuccessModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485E6FC1F1CC20D00301EBB /* SuccessModel.m */; };
-		2485E7071F1CC20D00301EBB /* jpush-ios-2.1.8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2485E6FE1F1CC20D00301EBB /* jpush-ios-2.1.8.a */; };
-		2485E7081F1CC20D00301EBB /* sound.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2485E7001F1CC20D00301EBB /* sound.caf */; };
 		2485E7421F1CC2AD00301EBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2485E7411F1CC2AD00301EBB /* UIKit.framework */; };
+		2485E7851F20570100301EBB /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2485E7731F20570100301EBB /* AlipaySDK.bundle */; };
+		2485E7861F20570100301EBB /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2485E7741F20570100301EBB /* AlipaySDK.framework */; };
+		2485E7871F20570100301EBB /* AFNService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485E77A1F20570100301EBB /* AFNService.m */; };
+		2485E7881F20570100301EBB /* HttpRequestSign.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485E77C1F20570100301EBB /* HttpRequestSign.m */; };
+		2485E7891F20570100301EBB /* SuccessModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485E7801F20570100301EBB /* SuccessModel.m */; };
+		2485E78A1F20570100301EBB /* jpush-ios-2.1.8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2485E7821F20570100301EBB /* jpush-ios-2.1.8.a */; };
+		2485E78B1F20570100301EBB /* sound.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2485E7841F20570100301EBB /* sound.caf */; };
 		24DAE5A4E5AEC1284FC7D0B1 /* libPods-ProductBaseClasses.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1BE7D629680C48DEC064497 /* libPods-ProductBaseClasses.a */; };
 /* End PBXBuildFile section */
 
@@ -29,18 +29,18 @@
 		2485E6DD1F1CB8DA00301EBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2485E6E01F1CB8DA00301EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2485E6E21F1CB8DA00301EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2485E6ED1F1CC20D00301EBB /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
-		2485E6EE1F1CC20D00301EBB /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
-		2485E6F31F1CC20D00301EBB /* AFNService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNService.h; sourceTree = "<group>"; };
-		2485E6F41F1CC20D00301EBB /* AFNService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNService.m; sourceTree = "<group>"; };
-		2485E6F71F1CC20D00301EBB /* HttpRequestSign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequestSign.h; sourceTree = "<group>"; };
-		2485E6F81F1CC20D00301EBB /* HttpRequestSign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequestSign.m; sourceTree = "<group>"; };
-		2485E6FB1F1CC20D00301EBB /* SuccessModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessModel.h; sourceTree = "<group>"; };
-		2485E6FC1F1CC20D00301EBB /* SuccessModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessModel.m; sourceTree = "<group>"; };
-		2485E6FE1F1CC20D00301EBB /* jpush-ios-2.1.8.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-2.1.8.a"; sourceTree = "<group>"; };
-		2485E6FF1F1CC20D00301EBB /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
-		2485E7001F1CC20D00301EBB /* sound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound.caf; sourceTree = "<group>"; };
 		2485E7411F1CC2AD00301EBB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2485E7731F20570100301EBB /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		2485E7741F20570100301EBB /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		2485E7791F20570100301EBB /* AFNService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNService.h; sourceTree = "<group>"; };
+		2485E77A1F20570100301EBB /* AFNService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNService.m; sourceTree = "<group>"; };
+		2485E77B1F20570100301EBB /* HttpRequestSign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequestSign.h; sourceTree = "<group>"; };
+		2485E77C1F20570100301EBB /* HttpRequestSign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequestSign.m; sourceTree = "<group>"; };
+		2485E77F1F20570100301EBB /* SuccessModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessModel.h; sourceTree = "<group>"; };
+		2485E7801F20570100301EBB /* SuccessModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessModel.m; sourceTree = "<group>"; };
+		2485E7821F20570100301EBB /* jpush-ios-2.1.8.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-2.1.8.a"; sourceTree = "<group>"; };
+		2485E7831F20570100301EBB /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		2485E7841F20570100301EBB /* sound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound.caf; sourceTree = "<group>"; };
 		42F18FA5CF8E1DF415EF0A19 /* Pods-ProductBaseClasses.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProductBaseClasses.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProductBaseClasses/Pods-ProductBaseClasses.release.xcconfig"; sourceTree = "<group>"; };
 		85FF2B1AA1608D041CE452DF /* Pods-ProductBaseClasses.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProductBaseClasses.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProductBaseClasses/Pods-ProductBaseClasses.debug.xcconfig"; sourceTree = "<group>"; };
 		B1BE7D629680C48DEC064497 /* libPods-ProductBaseClasses.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProductBaseClasses.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,9 +52,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2485E7421F1CC2AD00301EBB /* UIKit.framework in Frameworks */,
-				2485E7071F1CC20D00301EBB /* jpush-ios-2.1.8.a in Frameworks */,
-				2485E7021F1CC20D00301EBB /* AlipaySDK.framework in Frameworks */,
 				24DAE5A4E5AEC1284FC7D0B1 /* libPods-ProductBaseClasses.a in Frameworks */,
+				2485E78A1F20570100301EBB /* jpush-ios-2.1.8.a in Frameworks */,
+				2485E7861F20570100301EBB /* AlipaySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +82,7 @@
 		2485E6CD1F1CB8DA00301EBB /* ProductBaseClasses */ = {
 			isa = PBXGroup;
 			children = (
+				2485E76E1F20570100301EBB /* ProductBaseClasses */,
 				2485E6E81F1CBC2800301EBB /* Classes */,
 				2485E6DD1F1CB8DA00301EBB /* Assets.xcassets */,
 				2485E6DF1F1CB8DA00301EBB /* LaunchScreen.storyboard */,
@@ -103,83 +104,8 @@
 		2485E6E81F1CBC2800301EBB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2485E6EC1F1CC20D00301EBB /* AlipaySdkLib */,
-				2485E6F11F1CC20D00301EBB /* HttpService */,
-				2485E6FD1F1CC20D00301EBB /* JPUSH */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		2485E6EC1F1CC20D00301EBB /* AlipaySdkLib */ = {
-			isa = PBXGroup;
-			children = (
-				2485E6ED1F1CC20D00301EBB /* AlipaySDK.bundle */,
-				2485E6EE1F1CC20D00301EBB /* AlipaySDK.framework */,
-				2485E6EF1F1CC20D00301EBB /* openssl */,
-				2485E6F01F1CC20D00301EBB /* Util */,
-			);
-			path = AlipaySdkLib;
-			sourceTree = "<group>";
-		};
-		2485E6EF1F1CC20D00301EBB /* openssl */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = openssl;
-			sourceTree = "<group>";
-		};
-		2485E6F01F1CC20D00301EBB /* Util */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Util;
-			sourceTree = "<group>";
-		};
-		2485E6F11F1CC20D00301EBB /* HttpService */ = {
-			isa = PBXGroup;
-			children = (
-				2485E6F21F1CC20D00301EBB /* AFNService */,
-				2485E6F71F1CC20D00301EBB /* HttpRequestSign.h */,
-				2485E6F81F1CC20D00301EBB /* HttpRequestSign.m */,
-				2485E6F91F1CC20D00301EBB /* MKNService */,
-				2485E6FA1F1CC20D00301EBB /* Model */,
-			);
-			path = HttpService;
-			sourceTree = "<group>";
-		};
-		2485E6F21F1CC20D00301EBB /* AFNService */ = {
-			isa = PBXGroup;
-			children = (
-				2485E6F31F1CC20D00301EBB /* AFNService.h */,
-				2485E6F41F1CC20D00301EBB /* AFNService.m */,
-			);
-			path = AFNService;
-			sourceTree = "<group>";
-		};
-		2485E6F91F1CC20D00301EBB /* MKNService */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = MKNService;
-			sourceTree = "<group>";
-		};
-		2485E6FA1F1CC20D00301EBB /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				2485E6FB1F1CC20D00301EBB /* SuccessModel.h */,
-				2485E6FC1F1CC20D00301EBB /* SuccessModel.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		2485E6FD1F1CC20D00301EBB /* JPUSH */ = {
-			isa = PBXGroup;
-			children = (
-				2485E6FE1F1CC20D00301EBB /* jpush-ios-2.1.8.a */,
-				2485E6FF1F1CC20D00301EBB /* JPUSHService.h */,
-				2485E7001F1CC20D00301EBB /* sound.caf */,
-			);
-			path = JPUSH;
 			sourceTree = "<group>";
 		};
 		2485E7401F1CC2AD00301EBB /* Frameworks */ = {
@@ -189,6 +115,112 @@
 				B1BE7D629680C48DEC064497 /* libPods-ProductBaseClasses.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2485E76E1F20570100301EBB /* ProductBaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				2485E76F1F20570100301EBB /* AFNetworking */,
+				2485E7721F20570100301EBB /* AlipaySdkLib */,
+				2485E7771F20570100301EBB /* HttpService */,
+				2485E7811F20570100301EBB /* JPUSH */,
+			);
+			path = ProductBaseClasses;
+			sourceTree = "<group>";
+		};
+		2485E76F1F20570100301EBB /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				2485E7701F20570100301EBB /* AFNetworking */,
+				2485E7711F20570100301EBB /* UIKit+AFNetworking */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		2485E7701F20570100301EBB /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		2485E7711F20570100301EBB /* UIKit+AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		2485E7721F20570100301EBB /* AlipaySdkLib */ = {
+			isa = PBXGroup;
+			children = (
+				2485E7731F20570100301EBB /* AlipaySDK.bundle */,
+				2485E7741F20570100301EBB /* AlipaySDK.framework */,
+				2485E7751F20570100301EBB /* openssl */,
+				2485E7761F20570100301EBB /* Util */,
+			);
+			path = AlipaySdkLib;
+			sourceTree = "<group>";
+		};
+		2485E7751F20570100301EBB /* openssl */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = openssl;
+			sourceTree = "<group>";
+		};
+		2485E7761F20570100301EBB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		2485E7771F20570100301EBB /* HttpService */ = {
+			isa = PBXGroup;
+			children = (
+				2485E7781F20570100301EBB /* AFNService */,
+				2485E77B1F20570100301EBB /* HttpRequestSign.h */,
+				2485E77C1F20570100301EBB /* HttpRequestSign.m */,
+				2485E77D1F20570100301EBB /* MKNService */,
+				2485E77E1F20570100301EBB /* Model */,
+			);
+			path = HttpService;
+			sourceTree = "<group>";
+		};
+		2485E7781F20570100301EBB /* AFNService */ = {
+			isa = PBXGroup;
+			children = (
+				2485E7791F20570100301EBB /* AFNService.h */,
+				2485E77A1F20570100301EBB /* AFNService.m */,
+			);
+			path = AFNService;
+			sourceTree = "<group>";
+		};
+		2485E77D1F20570100301EBB /* MKNService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MKNService;
+			sourceTree = "<group>";
+		};
+		2485E77E1F20570100301EBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2485E77F1F20570100301EBB /* SuccessModel.h */,
+				2485E7801F20570100301EBB /* SuccessModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2485E7811F20570100301EBB /* JPUSH */ = {
+			isa = PBXGroup;
+			children = (
+				2485E7821F20570100301EBB /* jpush-ios-2.1.8.a */,
+				2485E7831F20570100301EBB /* JPUSHService.h */,
+				2485E7841F20570100301EBB /* sound.caf */,
+			);
+			path = JPUSH;
 			sourceTree = "<group>";
 		};
 		77AC78121DE54B7FC5C2C664 /* Pods */ = {
@@ -261,10 +293,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2485E7851F20570100301EBB /* AlipaySDK.bundle in Resources */,
 				2485E6E11F1CB8DA00301EBB /* LaunchScreen.storyboard in Resources */,
+				2485E78B1F20570100301EBB /* sound.caf in Resources */,
 				2485E6DE1F1CB8DA00301EBB /* Assets.xcassets in Resources */,
-				2485E7081F1CC20D00301EBB /* sound.caf in Resources */,
-				2485E7011F1CC20D00301EBB /* AlipaySDK.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,11 +355,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2485E7031F1CC20D00301EBB /* AFNService.m in Sources */,
-				2485E7061F1CC20D00301EBB /* SuccessModel.m in Sources */,
 				2485E6DC1F1CB8DA00301EBB /* ProductBaseClasses.xcdatamodeld in Sources */,
+				2485E7871F20570100301EBB /* AFNService.m in Sources */,
+				2485E7891F20570100301EBB /* SuccessModel.m in Sources */,
+				2485E7881F20570100301EBB /* HttpRequestSign.m in Sources */,
 				2485E6D01F1CB8DA00301EBB /* main.m in Sources */,
-				2485E7051F1CC20D00301EBB /* HttpRequestSign.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +475,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ProductBaseClasses/Classes/AlipaySdkLib",
+					"$(PROJECT_DIR)/ProductBaseClasses/ProductBaseClasses/AlipaySdkLib",
 				);
 				INFOPLIST_FILE = ProductBaseClasses/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -450,6 +483,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ProductBaseClasses/Classes/JPUSH",
+					"$(PROJECT_DIR)/ProductBaseClasses/ProductBaseClasses/JPUSH",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hualuoyongheng.ProductBaseClasses;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -464,6 +498,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ProductBaseClasses/Classes/AlipaySdkLib",
+					"$(PROJECT_DIR)/ProductBaseClasses/ProductBaseClasses/AlipaySdkLib",
 				);
 				INFOPLIST_FILE = ProductBaseClasses/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -471,6 +506,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ProductBaseClasses/Classes/JPUSH",
+					"$(PROJECT_DIR)/ProductBaseClasses/ProductBaseClasses/JPUSH",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hualuoyongheng.ProductBaseClasses;
 				PRODUCT_NAME = "$(TARGET_NAME)";
